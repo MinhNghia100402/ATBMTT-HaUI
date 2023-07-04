@@ -1,0 +1,458 @@
+.App {
+  background-color: #0f1729;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* owner code*/
+
+.left {
+  padding-bottom: 10px;
+  background-color: #1c2335;
+  width: 50%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-title {
+  background-color: rgb(246, 244, 244);
+  width: 40%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 150px;
+}
+
+.encrypt {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 40%;
+  background-color: #acbee5;
+}
+.encrypt-title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: space-between;
+}
+.encrypt-name {
+  color: white;
+  width: 20%;
+  height: 80%;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: rgb(13, 31, 121);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.encrypt-loadFiles {
+  color: white;
+  width: 30%;
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.choose-file {
+  cursor: pointer;
+}
+.choose-file input {
+  display: none;
+}
+.read-fileExel {
+  margin-top: -10px;
+  overflow: auto;
+}
+.read-fileExel textarea{
+  width: 685px;
+  height: 162px;
+}
+.view-file {
+  background-color: #d3dbf1;
+  max-height: 170px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.view-file table {
+  border: 1p solid;
+}
+.encrypt-keypair {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.keypair {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.key {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  align-items: center;
+  justify-content:space-around ;
+  
+}
+
+.chosse-file-encrypt {
+  border: 2px solid rgb(87, 79, 79);
+  border-radius: 10px;
+  background-color: #120734;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.key button {
+  border: 2px solid rgb(87, 79, 79);
+  border-radius: 10px;
+  width: 100%;
+  height: 25px;
+  background-color: #120734;
+  color: white;
+}
+.key button:hover {
+  background-color: #530eca;
+  transition: 0.75s;
+}
+.gennerate-key {
+  
+}
+check-pq
+.create-key {
+  
+}
+.encrypt-rsa {
+  
+}
+
+.encrypt-right-key {
+  width: 100%;
+  height: 31%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.params {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;  
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.params input {
+  width: 75%;
+  height: 25px;
+  margin-left: 20px;
+}
+.check-error{
+  width: 100%;
+  height: 10%;
+}
+.thoaman{
+  color: greenyellow;
+}
+.khong-thoaman{
+  color: red;
+}
+.error-message{
+  height: 15%;
+}
+.p-vs-q{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 10px;
+}
+.e-vs-n{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+.p {
+  color: white;
+  width: 100%;
+}
+.q {
+  color: white;
+  width: 100%;
+}
+.e {
+  color: white;
+  width: 100%;
+
+}
+.n {
+  color: white;
+  width: 100%;
+
+}
+.banma {
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 90%;
+  height: 40%;
+  background-color: #acbee5;
+}
+.banma-title {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(13, 31, 121);
+  color: white;
+  width: 20%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banma-display{
+  overflow: auto;
+}
+.banma-display textarea{
+  width: 685px;
+  height: 162px;
+}
+.view-encrypt {
+  white-space: nowrap;
+  background-color: #d3dbf1;
+  height: 170px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.right {
+  padding-bottom: 10px;
+  background-color: #1c2335;
+  width: 50%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-title {
+  background-color: rgb(246, 244, 244);
+  width: 30%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.dencrypt {
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 90%;
+  height: 40%;
+  background-color: #acbee5;
+}
+.dencrypt-title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: space-between;
+}
+.dencrypt-name {
+  color: white;
+  width: 20%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(13, 31, 121);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dencrypt-loadFiles {
+  border: 2px solid rgb(87, 79, 79);
+  border-radius: 10px;
+  width: 80%;
+  height: 100%;
+  background-color: #120734;
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.dencrypt-loadFiles:hover {
+  background-color: #1d0e31;
+  color: rgb(255, 255, 255);
+  transition: 0.75s;
+}
+.choose-file {
+  cursor: pointer;
+}
+.choose-file input {
+  display: none;
+}
+.select-file {
+  display: none;
+}
+.viewFileEncrypt {
+  white-space: nowrap;
+  background-color: #d3dbf1;
+  max-height: 170px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.viewFileEncrypt textarea{
+  width: 685px;
+  height: 162px;
+}
+.decrypt-kepair {
+  margin-top: 10px;
+  width: 90%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.decrypt-kepair button {
+  border: 2px solid rgb(87, 79, 79);
+  border-radius: 10px;
+  width: 80%;
+  height: 25px;
+  background-color: #120734;
+  color: white;
+}
+
+.decrypt-keys {
+  width: 20%;
+}
+.transfer {
+}
+.dencrypt-rsa {
+  margin-top: 10px;
+}
+.decrypt-params {
+  color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.decrypt-params input {
+  width: 80%;
+  height: 25px;
+  margin-left: 20px;
+}
+.decrypt-d {
+}
+.decrypt-n {
+  margin-top: 10px;
+}
+.banro {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 90%;
+  height: 40%;
+  background-color: #acbee5;
+}
+.banro-title {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(13, 31, 121);
+  color: white;
+  width: 20%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.params ::placeholder {
+  color: gainsboro;
+}
+.decrypt-keys button {
+  border: 2px solid rgb(87, 79, 79);
+}
+.decrypt-keys button:hover {
+  background-color: #530eca;
+  transition: 0.75s;
+}
+.ciphertext-display {
+  white-space: nowrap;
+  background-color: #d3dbf1;
+  max-height: 170px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.decrypt-d {
+  width: 100%;
+}
+.decrypt-n {
+  width: 100%;
+}
+
+
+
+
+
+.save-file {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.save-file button {
+  border: 2px solid rgb(87, 79, 79);
+  border-radius: 10px;
+  width: 15%;
+  height: 25px;
+  background-color: #120734;
+  color: white;
+}
+.save-file button:hover {
+  background-color: #530eca;
+  transition: 0.75s;
+}
